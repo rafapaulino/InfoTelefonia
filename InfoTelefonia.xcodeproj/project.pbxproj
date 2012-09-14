@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A004D0C16036BDE00AF0B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D0B16036BDE00AF0B14 /* UIKit.framework */; };
+		6A004D0E16036BDE00AF0B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D0D16036BDE00AF0B14 /* Foundation.framework */; };
+		6A004D1016036BDE00AF0B14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D0F16036BDE00AF0B14 /* CoreGraphics.framework */; };
+		6A004D1616036BDE00AF0B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A004D1416036BDE00AF0B14 /* InfoPlist.strings */; };
+		6A004D1816036BDE00AF0B14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A004D1716036BDE00AF0B14 /* main.m */; };
+		6A004D1C16036BDE00AF0B14 /* PrincipalAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A004D1B16036BDE00AF0B14 /* PrincipalAppDelegate.m */; };
+		6A004D1F16036BDF00AF0B14 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A004D1D16036BDF00AF0B14 /* MainStoryboard.storyboard */; };
+		6A004D2216036BDF00AF0B14 /* PrincipalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A004D2116036BDF00AF0B14 /* PrincipalViewController.m */; };
+		6A004D2A16036BDF00AF0B14 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D2916036BDF00AF0B14 /* SenTestingKit.framework */; };
+		6A004D2B16036BDF00AF0B14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D0B16036BDE00AF0B14 /* UIKit.framework */; };
+		6A004D2C16036BDF00AF0B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D0D16036BDE00AF0B14 /* Foundation.framework */; };
+		6A004D3416036BDF00AF0B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A004D3216036BDF00AF0B14 /* InfoPlist.strings */; };
+		6A004D3716036BDF00AF0B14 /* InfoTelefoniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A004D3616036BDF00AF0B14 /* InfoTelefoniaTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A004D2D16036BDF00AF0B14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A004CFE16036BDE00AF0B14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A004D0616036BDE00AF0B14;
+			remoteInfo = InfoTelefonia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A004D0716036BDE00AF0B14 /* InfoTelefonia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfoTelefonia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A004D0B16036BDE00AF0B14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6A004D0D16036BDE00AF0B14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6A004D0F16036BDE00AF0B14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6A004D1316036BDE00AF0B14 /* InfoTelefonia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfoTelefonia-Info.plist"; sourceTree = "<group>"; };
+		6A004D1516036BDE00AF0B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A004D1716036BDE00AF0B14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6A004D1916036BDE00AF0B14 /* InfoTelefonia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InfoTelefonia-Prefix.pch"; sourceTree = "<group>"; };
+		6A004D1A16036BDE00AF0B14 /* PrincipalAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalAppDelegate.h; sourceTree = "<group>"; };
+		6A004D1B16036BDE00AF0B14 /* PrincipalAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalAppDelegate.m; sourceTree = "<group>"; };
+		6A004D1E16036BDF00AF0B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		6A004D2016036BDF00AF0B14 /* PrincipalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrincipalViewController.h; sourceTree = "<group>"; };
+		6A004D2116036BDF00AF0B14 /* PrincipalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrincipalViewController.m; sourceTree = "<group>"; };
+		6A004D2816036BDF00AF0B14 /* InfoTelefoniaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfoTelefoniaTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A004D2916036BDF00AF0B14 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		6A004D3116036BDF00AF0B14 /* InfoTelefoniaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InfoTelefoniaTests-Info.plist"; sourceTree = "<group>"; };
+		6A004D3316036BDF00AF0B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6A004D3516036BDF00AF0B14 /* InfoTelefoniaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTelefoniaTests.h; sourceTree = "<group>"; };
+		6A004D3616036BDF00AF0B14 /* InfoTelefoniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTelefoniaTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A004D0416036BDE00AF0B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A004D0C16036BDE00AF0B14 /* UIKit.framework in Frameworks */,
+				6A004D0E16036BDE00AF0B14 /* Foundation.framework in Frameworks */,
+				6A004D1016036BDE00AF0B14 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A004D2416036BDF00AF0B14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A004D2A16036BDF00AF0B14 /* SenTestingKit.framework in Frameworks */,
+				6A004D2B16036BDF00AF0B14 /* UIKit.framework in Frameworks */,
+				6A004D2C16036BDF00AF0B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A004CFC16036BDE00AF0B14 = {
+			isa = PBXGroup;
+			children = (
+				6A004D1116036BDE00AF0B14 /* InfoTelefonia */,
+				6A004D2F16036BDF00AF0B14 /* InfoTelefoniaTests */,
+				6A004D0A16036BDE00AF0B14 /* Frameworks */,
+				6A004D0816036BDE00AF0B14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A004D0816036BDE00AF0B14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A004D0716036BDE00AF0B14 /* InfoTelefonia.app */,
+				6A004D2816036BDF00AF0B14 /* InfoTelefoniaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A004D0A16036BDE00AF0B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A004D0B16036BDE00AF0B14 /* UIKit.framework */,
+				6A004D0D16036BDE00AF0B14 /* Foundation.framework */,
+				6A004D0F16036BDE00AF0B14 /* CoreGraphics.framework */,
+				6A004D2916036BDF00AF0B14 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A004D1116036BDE00AF0B14 /* InfoTelefonia */ = {
+			isa = PBXGroup;
+			children = (
+				6A004D1A16036BDE00AF0B14 /* PrincipalAppDelegate.h */,
+				6A004D1B16036BDE00AF0B14 /* PrincipalAppDelegate.m */,
+				6A004D1D16036BDF00AF0B14 /* MainStoryboard.storyboard */,
+				6A004D2016036BDF00AF0B14 /* PrincipalViewController.h */,
+				6A004D2116036BDF00AF0B14 /* PrincipalViewController.m */,
+				6A004D1216036BDE00AF0B14 /* Supporting Files */,
+			);
+			path = InfoTelefonia;
+			sourceTree = "<group>";
+		};
+		6A004D1216036BDE00AF0B14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A004D1316036BDE00AF0B14 /* InfoTelefonia-Info.plist */,
+				6A004D1416036BDE00AF0B14 /* InfoPlist.strings */,
+				6A004D1716036BDE00AF0B14 /* main.m */,
+				6A004D1916036BDE00AF0B14 /* InfoTelefonia-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A004D2F16036BDF00AF0B14 /* InfoTelefoniaTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A004D3516036BDF00AF0B14 /* InfoTelefoniaTests.h */,
+				6A004D3616036BDF00AF0B14 /* InfoTelefoniaTests.m */,
+				6A004D3016036BDF00AF0B14 /* Supporting Files */,
+			);
+			path = InfoTelefoniaTests;
+			sourceTree = "<group>";
+		};
+		6A004D3016036BDF00AF0B14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A004D3116036BDF00AF0B14 /* InfoTelefoniaTests-Info.plist */,
+				6A004D3216036BDF00AF0B14 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A004D0616036BDE00AF0B14 /* InfoTelefonia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A004D3A16036BDF00AF0B14 /* Build configuration list for PBXNativeTarget "InfoTelefonia" */;
+			buildPhases = (
+				6A004D0316036BDE00AF0B14 /* Sources */,
+				6A004D0416036BDE00AF0B14 /* Frameworks */,
+				6A004D0516036BDE00AF0B14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfoTelefonia;
+			productName = InfoTelefonia;
+			productReference = 6A004D0716036BDE00AF0B14 /* InfoTelefonia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A004D2716036BDF00AF0B14 /* InfoTelefoniaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A004D3D16036BDF00AF0B14 /* Build configuration list for PBXNativeTarget "InfoTelefoniaTests" */;
+			buildPhases = (
+				6A004D2316036BDF00AF0B14 /* Sources */,
+				6A004D2416036BDF00AF0B14 /* Frameworks */,
+				6A004D2516036BDF00AF0B14 /* Resources */,
+				6A004D2616036BDF00AF0B14 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A004D2E16036BDF00AF0B14 /* PBXTargetDependency */,
+			);
+			name = InfoTelefoniaTests;
+			productName = InfoTelefoniaTests;
+			productReference = 6A004D2816036BDF00AF0B14 /* InfoTelefoniaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A004CFE16036BDE00AF0B14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Principal;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = rafapaulino.com;
+			};
+			buildConfigurationList = 6A004D0116036BDE00AF0B14 /* Build configuration list for PBXProject "InfoTelefonia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6A004CFC16036BDE00AF0B14;
+			productRefGroup = 6A004D0816036BDE00AF0B14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A004D0616036BDE00AF0B14 /* InfoTelefonia */,
+				6A004D2716036BDF00AF0B14 /* InfoTelefoniaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A004D0516036BDE00AF0B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A004D1616036BDE00AF0B14 /* InfoPlist.strings in Resources */,
+				6A004D1F16036BDF00AF0B14 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A004D2516036BDF00AF0B14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A004D3416036BDF00AF0B14 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A004D2616036BDF00AF0B14 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A004D0316036BDE00AF0B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A004D1816036BDE00AF0B14 /* main.m in Sources */,
+				6A004D1C16036BDE00AF0B14 /* PrincipalAppDelegate.m in Sources */,
+				6A004D2216036BDF00AF0B14 /* PrincipalViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A004D2316036BDF00AF0B14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A004D3716036BDF00AF0B14 /* InfoTelefoniaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A004D2E16036BDF00AF0B14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A004D0616036BDE00AF0B14 /* InfoTelefonia */;
+			targetProxy = 6A004D2D16036BDF00AF0B14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A004D1416036BDE00AF0B14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A004D1516036BDE00AF0B14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A004D1D16036BDF00AF0B14 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A004D1E16036BDF00AF0B14 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		6A004D3216036BDF00AF0B14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A004D3316036BDF00AF0B14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A004D3816036BDF00AF0B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6A004D3916036BDF00AF0B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A004D3B16036BDF00AF0B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTelefonia/InfoTelefonia-Prefix.pch";
+				INFOPLIST_FILE = "InfoTelefonia/InfoTelefonia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6A004D3C16036BDF00AF0B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTelefonia/InfoTelefonia-Prefix.pch";
+				INFOPLIST_FILE = "InfoTelefonia/InfoTelefonia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6A004D3E16036BDF00AF0B14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfoTelefonia.app/InfoTelefonia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTelefonia/InfoTelefonia-Prefix.pch";
+				INFOPLIST_FILE = "InfoTelefoniaTests/InfoTelefoniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		6A004D3F16036BDF00AF0B14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InfoTelefonia.app/InfoTelefonia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InfoTelefonia/InfoTelefonia-Prefix.pch";
+				INFOPLIST_FILE = "InfoTelefoniaTests/InfoTelefoniaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A004D0116036BDE00AF0B14 /* Build configuration list for PBXProject "InfoTelefonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A004D3816036BDF00AF0B14 /* Debug */,
+				6A004D3916036BDF00AF0B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A004D3A16036BDF00AF0B14 /* Build configuration list for PBXNativeTarget "InfoTelefonia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A004D3B16036BDF00AF0B14 /* Debug */,
+				6A004D3C16036BDF00AF0B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6A004D3D16036BDF00AF0B14 /* Build configuration list for PBXNativeTarget "InfoTelefoniaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A004D3E16036BDF00AF0B14 /* Debug */,
+				6A004D3F16036BDF00AF0B14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A004CFE16036BDE00AF0B14 /* Project object */;
+}
