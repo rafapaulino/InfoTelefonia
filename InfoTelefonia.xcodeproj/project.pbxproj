@@ -20,6 +20,7 @@
 		6A004D2C16036BDF00AF0B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D0D16036BDE00AF0B14 /* Foundation.framework */; };
 		6A004D3416036BDF00AF0B14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A004D3216036BDF00AF0B14 /* InfoPlist.strings */; };
 		6A004D3716036BDF00AF0B14 /* InfoTelefoniaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A004D3616036BDF00AF0B14 /* InfoTelefoniaTests.m */; };
+		6A004D4116036BF300AF0B14 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A004D4016036BF300AF0B14 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		6A004D3316036BDF00AF0B14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6A004D3516036BDF00AF0B14 /* InfoTelefoniaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoTelefoniaTests.h; sourceTree = "<group>"; };
 		6A004D3616036BDF00AF0B14 /* InfoTelefoniaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoTelefoniaTests.m; sourceTree = "<group>"; };
+		6A004D4016036BF300AF0B14 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A004D4116036BF300AF0B14 /* CoreTelephony.framework in Frameworks */,
 				6A004D0C16036BDE00AF0B14 /* UIKit.framework in Frameworks */,
 				6A004D0E16036BDE00AF0B14 /* Foundation.framework in Frameworks */,
 				6A004D1016036BDE00AF0B14 /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +84,7 @@
 		6A004CFC16036BDE00AF0B14 = {
 			isa = PBXGroup;
 			children = (
+				6A004D4016036BF300AF0B14 /* CoreTelephony.framework */,
 				6A004D1116036BDE00AF0B14 /* InfoTelefonia */,
 				6A004D2F16036BDF00AF0B14 /* InfoTelefoniaTests */,
 				6A004D0A16036BDE00AF0B14 /* Frameworks */,
